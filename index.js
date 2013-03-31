@@ -2,7 +2,7 @@ function(){
   require('bootstrap-tooltip');
   var jQuery = require('jquery');
   /* ===========================================================
-   * bootstrap-popover.js v2.2.2
+   * bootstrap-popover.js v2.3.0
    * http://twitter.github.com/bootstrap/javascript.html#popovers
    * ===========================================================
    * Copyright 2012 Twitter, Inc.
@@ -61,8 +61,8 @@ function(){
           , $e = this.$element
           , o = this.options
   
-        content = $e.attr('data-content')
-          || (typeof o.content == 'function' ? o.content.call($e[0]) :  o.content)
+        content = (typeof o.content == 'function' ? o.content.call($e[0]) :  o.content)
+          || $e.attr('data-content')
   
         return content
       }
@@ -102,7 +102,7 @@ function(){
       placement: 'right'
     , trigger: 'click'
     , content: ''
-    , template: '<div class="popover"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"></div></div></div>'
+    , template: '<div class="popover"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
     })
   
   
@@ -115,4 +115,5 @@ function(){
     }
   
   }(jQuery);
+  
 }
