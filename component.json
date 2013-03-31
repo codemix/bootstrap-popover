@@ -4,10 +4,7 @@
   "description": "The popover plugin from twitter bootstrap",
   "version": "2.3.1",
   "dependencies": {
-    "component/jquery": [
-      "*",
-      "jQuery"
-    ],
+    "component/jquery": "jQuery",
     "codemix/bootstrap-tooltip": "*"
   },
   "scripts": [
