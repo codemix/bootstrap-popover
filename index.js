@@ -2,7 +2,7 @@ function(){
   require('bootstrap-tooltip');
   var jQuery = require('jquery');
   /* ===========================================================
-   * bootstrap-popover.js v2.1.1
+   * bootstrap-popover.js v2.2.0
    * http://twitter.github.com/bootstrap/javascript.html#popovers
    * ===========================================================
    * Copyright 2012 Twitter, Inc.
