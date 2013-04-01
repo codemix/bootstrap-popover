@@ -1,4 +1,4 @@
-function(){
+(function(){
   require('bootstrap-tooltip');
   var jQuery = require('jquery');
   /* ===========================================================
@@ -116,4 +116,4 @@ function(){
   
   }(jQuery);
   
-}()
+})()
