@@ -1,4 +1,4 @@
-(function(){
+;(function(){
   require('bootstrap-tooltip');
   /* ========================================================================
    * Bootstrap: popover.js v3.0.2
@@ -118,4 +118,4 @@
   
   }(jQuery);
   
-})()
+})();
